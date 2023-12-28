@@ -59,7 +59,7 @@ function renderGame(){
 
 generateFood();
 renderGame();
-setInterval(renderGame, 100);
+setInterval(renderGame, 350);
 
 
 document.addEventListener('keydown',function(e){
